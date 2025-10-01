@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+}
+
+#wordList {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#gridContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(15, 30px);
+  grid-template-rows: repeat(15, 30px);
+  gap: 2px;
+}
+
+.grid-cell {
+  width: 30px;
+  height: 30px;
+  background-color: #e0e0e0;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#wordBank {
+  margin-top: 20px;
+}
